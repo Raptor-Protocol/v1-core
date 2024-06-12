@@ -1,0 +1,10 @@
+{
+  "solidity.packageDefaultDependenciesContractsDirectory": "src",
+  "solidity.packageDefaultDependenciesDirectory": "lib",
+  "solidity.monoRepoSupport": false,
+  "solidity.compileUsingRemoteVersion": "0.8.26",
+  "[solidity]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.olympix.project.includePath": "/src",
+}
