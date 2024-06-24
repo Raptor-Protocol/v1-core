@@ -1,8 +1,10 @@
 {
   "name": "raptor-v1-core-smart-contracts",
-  "description": "An Insurance Protocol for Smart Contracts",
+  "description": "An Insurance Protocol for Protocols",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "forge test -vvv",
+    "unit": "forge test --mp test/unit/**/*.sol -vvv",
+    "fuzz": "forge test --mp test/fuzz/**/*.sol -vvv",
     "lint": "solhint './src/**/*.sol'"
   },
   "engines": {
